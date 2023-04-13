@@ -1,0 +1,24 @@
+body {
+
+}
+
+header {
+    
+}
+.linksLogo {
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    flex: 1;
+}
+
+.logo {
+    display: flex;
+    flex: 1;
+}
