@@ -44,8 +44,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 40px;
-    font-size: 20px;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
 }
 
 .pics4x {
@@ -55,7 +56,10 @@
     font-size: 12px;
     text-align: center;
     gap: 10px;
-    margin: 50px;
+    padding: 50px;
+
+    height: 200px;
+    width: auto;
 }
 
 .pics4x img {
@@ -63,20 +67,28 @@
 }
 
 .quote {
-   display: grid;
+   display: flex;
    flex-direction: column;
    justify-content: center;
    align-items: center;
-   text-align: center;
+
 
    font-size: 20px;
 }
 
-.saidQuote {
+.mainQuote {
+    display: flex;
+    width: 50%;
+    flex: 1;
     
+}
+.saidQuote {
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
     
 }
 
 .saidQuote p {
-    font-size: 15px;
+    font-size: 17px;
 }
