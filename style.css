@@ -185,6 +185,7 @@ body {
 .saidQuote p {
     font-size: 17px;
     color: #1F2937;
+    padding: 0px;
 }
 
 .callToAction {
@@ -236,5 +237,6 @@ body {
 
     background-color: #1F2937;
     color: #F9FAF8;
+    padding: 25px 0px;
     margin-top: auto;
 }
