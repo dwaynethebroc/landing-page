@@ -19,16 +19,12 @@ body {
     justify-content: flex-end;
     padding: 10px;
     flex: 1;
-
-
-    
 }
 
 .links a {
     padding: 10px;
     text-decoration: none;
     color: #e5e7eb;
-    
 }
 
 .logo {
@@ -40,18 +36,15 @@ body {
 
     font-size: 24px;
     font-weight: 600;
-    width: 30%;
+    width: 50%;
 }
 
-div .logo {
-    padding: 15px;
-}
 
 
 .bio {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
 
     background-color: #1F2937;
 
@@ -60,12 +53,10 @@ div .logo {
 .infoButton {
     display: flex;
     flex-direction: column;
-    
-
-    width: 50%;
 
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
+    padding: 25px 0px;
 }
 
 .infoButton h1 {
@@ -73,8 +64,7 @@ div .logo {
     font-weight: 800;
     color: #F9FAF8;
     width: 50%;
-
-    justify-self: center;
+    margin: 0px;
     
 }
 
@@ -105,10 +95,19 @@ div .logo {
 }
 
 .mainImage {
-    flex: 1;
-    justify-content: center;
+    display: flex;
+    width: 50%;
+    justify-content: flex-start;
     align-self: stretch;
+    padding: 25px 0px;
+}
+
+.mainImage img{
+    
+    background-color: rgb(208, 208, 208);
     border: 2px solid black; 
+    width: 80%;
+
 }
 
 .pictures { 
@@ -177,17 +176,15 @@ div .logo {
 .callToAction {
     display: flex;
 
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 
     
     color: #F9FAF8;
     background-color: #3882f6;
-
     padding: 20px;
     margin: auto;
-    width: 50%;
-
+    width: 75%;
     gap: 20px;
 
 }
@@ -199,6 +196,7 @@ div .logo {
 .button {
     display: flex;
     background-color: #3882f6;  
+    justify-content: center;
     
 }
 
@@ -206,6 +204,16 @@ div .logo {
    display: flex;
    justify-content: center;
    align-items: center;
+
+   border: 2px solid #F9FAF8;
+   background-color: #3882f6;  
+   color: #F9FAF8;
+   padding: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-weight: 500;
+    font-size: 15px;
+    border-radius: 10px;
 }
 
 .footer {
