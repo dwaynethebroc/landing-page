@@ -164,17 +164,18 @@ body {
 
 .mainQuote {
     display: flex;
-    width:40%;
+    width:50%;
     flex: 1;
 
     color: #1F2937;
     font-size: 36px;
     font-style: italic;
+    font-weight: 200;
 }
 
 .saidQuote {
     display: flex;
-    width: 40%;
+    width: 50%;
     justify-content: flex-end;
     
 }
@@ -183,6 +184,7 @@ body {
     font-size: 17px;
     color: #1F2937;
     padding: 0px;
+    font-weight: bold;
 }
 
 .callToAction {
@@ -194,6 +196,7 @@ body {
     
     color: #F9FAF8;
     background-color: #3882f6;
+    border-radius: 10px;
     padding: 30px;
     margin: 50px 75px;
     gap: 100px;
